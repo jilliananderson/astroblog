@@ -1,4 +1,8 @@
 ---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+const pageTitle = "About";
+const font = "Tahoma, sans-serif";
 ---
 
 <html lang="en">
@@ -7,12 +11,19 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>JillianBlogs</title>
+		<title>{pageTitle}</title>
+        <style define:vars={{font}}>
+            body {
+                font-family: var(--font);
+            }
+            h1 {
+              color: purple;
+              font-size: 4rem;
+            }
+          </style>
 	</head>
 	<body>
-        <a href="/">Home</a>
-        <a href="/about/">About</a>
-        <a href="/blog">Blog</a>
+        <Header />
 		<h1>About</h1>
         <p>My name is Jillian and I hate writing bios and always spend way too much time trying to sound cool and interesting!</p>
         <p>So instead of thinking about that right now (I'm using my hack time from work to rebuild my blog, so content shouldn't really be my first priority...) I'll just give a crappy short version of a bio and maybe come back to it later.</p>

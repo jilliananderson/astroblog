@@ -1,4 +1,7 @@
 ---
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+const pageTitle = "Blog";
 ---
 
 <html lang="en">
@@ -7,12 +10,14 @@
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
-		<title>JillianBlogs</title>
+		<title>{pageTitle}</title>
 	</head>
 	<body>
-		<a href="/">Home</a>
-		<a href="/about/">About</a>
-		<a href="/blog">Blog</a>
+		<Header />
 		<h1>Actual blog page</h1>
+        <ul>
+            <li><a href="/posts/an-actual-post/">An Actual Post [From the Archive]</a></li>
+            <li><a href="/posts/post-2/">Post 2</a></li>
+          </ul>
 	</body>
 </html>
