@@ -1,8 +1,15 @@
 ---
 import Navigation from './Navigation.astro';
+import Hamburger from './Hamburger.astro';
 ---
-<header>
+<header class="header">
     <nav>
+        <Hamburger />
         <Navigation />
     </nav>
 </header>
+<style>
+    .header {
+        background-color: $ff2079;
+    }
+</style>

@@ -1,5 +1,6 @@
+/* Default styles */
 html {
-    background-color: #f1f5f9;
+    background-image: linear-gradient(to right, #e92efb, #ff2079, #440bd4, #04005e 20%, #04005e 80%, #440bd4, #ff2079, #e92efb);
     font-family: Trebuchet, sans-serif;
   }
   
@@ -9,11 +10,13 @@ html {
     max-width: 80ch;
     padding: 1rem;
     line-height: 1.5;
-    background-color: lightpink;
+    background-color: #04005e;
+    color: white;
   }
   
   * {
     box-sizing: border-box;
+    color: white;
   }
   
   h1 {
@@ -21,14 +24,27 @@ html {
     font-size: 2.5rem;
   }
 
+  /* Nav styles */
+  .hamburger {
+    padding-right: 20px;
+    cursor: pointer;
+  }
+  
+  .hamburger .line {
+    display: block;
+    width: 40px;
+    height: 5px;
+    margin-bottom: 10px;
+    background-color: #e92efb;
+  }
+
   .nav-links {
     width: 100%;
     top: 5rem;
     left: 48px;
-    background-color: #ff9776;
+    background-color: #440BD4;
     display: none;
     margin: 0;
-    background-color: aqua;
   }
   
   .nav-links a {
@@ -39,10 +55,11 @@ html {
     font-size: 1.2rem;
     font-weight: bold;
     text-transform: uppercase;
+    color: white;
   }
   
   .nav-links a:hover, a:focus {
-    background-color: #ff9776;
+    background-color: #440BD4;
   }
   
   .expanded {
@@ -62,5 +79,9 @@ html {
       display: inline-block;
       padding: 15px 20px;
     }
+
+    .hamburger {
+        display: none;
+      }
   
   }

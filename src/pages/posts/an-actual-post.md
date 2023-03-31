@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MDPostLayout.astro
 title: "An actual blog post? Who gave me permission?"
 pubDate: 2021-01-31
 description: "A blog post migrated from my prior blog project"
@@ -6,7 +7,7 @@ author: Jillian
 image:
   url: "https://astro.build/assets/blog/astro-1-release-update/cover.jpeg"
   alt: "The Astro logo with the word One."
-tags: []
+tags: ["blogging", "personal"]
 ---
 
 Wow, would you look at that? It's only been a year, a month, and 23 days since my first commit in the course of building this blog, and I'm already writing up some _~ actual content ~_ to live here? Wild.
