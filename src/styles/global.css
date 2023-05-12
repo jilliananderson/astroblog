@@ -1,6 +1,5 @@
 /* Default styles */
 html {
-    background-image: linear-gradient(to right, #e92efb, #ff2079, #440bd4, #04005e 20%, #04005e 80%, #440bd4, #ff2079, #e92efb);
     font-family: Trebuchet, sans-serif;
   }
   
@@ -10,18 +9,22 @@ html {
     max-width: 80ch;
     padding: 1rem;
     line-height: 1.5;
-    background-color: #04005e;
-    color: white;
+    background-color: #c69fec;
   }
   
   * {
     box-sizing: border-box;
-    color: white;
   }
   
   h1 {
     margin: 1rem 0;
     font-size: 2.5rem;
+    background: linear-gradient(45deg,#c928c8 0%,#2a28c9 20%,#7a28c9 50%,#2a28c9 80%,#c928c8 100%);
+    background-size: 200% auto;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   /* Nav styles */
@@ -35,14 +38,13 @@ html {
     width: 40px;
     height: 5px;
     margin-bottom: 10px;
-    background-color: #e92efb;
+    background-color: #9fecc6;
   }
 
   .nav-links {
     width: 100%;
     top: 5rem;
     left: 48px;
-    background-color: #440BD4;
     display: none;
     margin: 0;
   }
@@ -55,11 +57,10 @@ html {
     font-size: 1.2rem;
     font-weight: bold;
     text-transform: uppercase;
-    color: white;
   }
   
   .nav-links a:hover, a:focus {
-    background-color: #440BD4;
+    background-color: #9fecc6;
   }
   
   .expanded {
