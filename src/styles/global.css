@@ -19,12 +19,23 @@ html {
   h1 {
     margin: 1rem 0;
     font-size: 2.5rem;
-    background: linear-gradient(45deg,#c928c8 0%,#2a28c9 20%,#7a28c9 50%,#2a28c9 80%,#c928c8 100%);
+    background: linear-gradient(45deg,#c928c8 20%,#2a28c9 35%,#7a28c9 50%,#2a28c9,#c928c8);
     background-size: 200% auto;
     background-clip: text;
     text-fill-color: transparent;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-align: center;
+  }
+
+  img {
+    border-radius: 16px;
+  }
+
+  .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   /* Nav styles */
@@ -51,6 +62,7 @@ html {
   
   .nav-links a {
     display: block;
+    color: #271f2f;
     text-align: center;
     padding: 10px 0;
     text-decoration: none;
@@ -60,7 +72,8 @@ html {
   }
   
   .nav-links a:hover, a:focus {
-    background-color: #9fecc6;
+    background-color: #9e7fbc;
+    color: #271f2f;
   }
   
   .expanded {
@@ -69,8 +82,8 @@ html {
   
   @media screen and (min-width: 636px) {
     .nav-links {
-      margin-left: 5em;
-      display: block;
+      display: flex;
+      justify-content: space-evenly;
       position: static;
       width: auto;
       background: none;

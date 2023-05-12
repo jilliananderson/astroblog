@@ -4,15 +4,14 @@ title: "An actual blog post? Who gave me permission?"
 pubDate: 2021-01-31
 description: "A blog post migrated from my prior blog project"
 author: Jillian
-image:
-  url: "https://astro.build/assets/blog/astro-1-release-update/cover.jpeg"
-  alt: "The Astro logo with the word One."
 tags: ["blogging", "personal"]
 ---
 
+_Author's note: this blog post has been migrated from a previous version of this blog project, about 2 years later, during the process of rewriting the blog from Gastby to Astro._
+
 Wow, would you look at that? It's only been a year, a month, and 23 days since my first commit in the course of building this blog, and I'm already writing up some _~ actual content ~_ to live here? Wild.
 
-(Though tbh, the randomly generated hipsum may be better writing than whatever I'm about to churn out 🤷🏻‍♀️)
+(Though tbh, randomly generated hipsum may be better writing than whatever I'm about to churn out 🤷🏻‍♀️)
 
 ## But really, why has it taken so long for me to publish anything resembling real content here?
 

@@ -1,20 +1,21 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
+  import BaseLayout from '../../layouts/BaseLayout.astro';
 
-const allPosts = await Astro.glob('../posts/*.md');
-const uniqueTags = [...new Set(allPosts.map(post => post.frontmatter.tags).flat())]
-const pageTitle = 'Tag index'
+  const allPosts = await Astro.glob('../posts/*.md');
+  const uniqueTags = [...new Set(allPosts.map(post => post.frontmatter.tags).flat())]
+  const pageTitle = 'Tag index'
 ---
+
 <BaseLayout pageTitle={pageTitle}>
-    <div class="tags">
-        {uniqueTags.map((tag) => <p class="tag"><a href={`tags/${tag}`}>{tag}</a></p>)}
-    </div>
+  <div class="tags">
+    {uniqueTags.map((tag) => <p class="tag"><a href={`/tags/${tag}`}>{tag}</a></p>)}
+  </div>
 </BaseLayout>
 <style>
   a {
     width: 100%;
     height: 100%;
-     margin: 0.25em;
+    margin: 0.25em;
     border-radius: 32px;
     padding: .5em 1em;
     font-size: 1.15em;
@@ -23,14 +24,14 @@ const pageTitle = 'Tag index'
     background-color: #A05FE0;
   }
 
-  a:hover, a:focus {
-      background-color: #9fecc6;
+  a:hover,
+  a:focus {
+    background-color: #9fecc6;
   }
 
   .tags {
-    display: flex; 
-    flex-wrap: wrap; 
-    margin: 0 auto;  
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
   }
-
 </style>
