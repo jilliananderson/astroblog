@@ -32,6 +32,8 @@ We finally bought an AC unit! Well, a [swamp cooler](https://www.google.com/sear
 
 **Other**: I've finally returned to indoor bouldering (and more importantly, the croissant that comes after)! The finger I dislocated has taken its sweeeeeeet sweet time to heal, but it's finally feeling pretty stable and not bothering me too much. I still need to be a bit cautious, but I can climb routes at the level I left off at, and I can do 3 (well, ok...2 and a half) consecutive pull-ups again, so I'm absolutely psyched to be back at it and back with my bouldering crew. 🥐❤️
 
+**Other other**: I originally posted this with a picture without sharing any context; the picture is of my most recent attempt at latte art, and while the crema isn't exactly consistent, the shape of the foam art is the best I have ever achieved, and I am excited about that! It's difficult to improve a skill when you only practice it 2-4 times a week, but I do see some progress. Also, it's an art that's tasty, so even if it looks like 💩, it still tastes like ☕️ and that's what matters.
+
 ## Anything else?
 
 Nah, dawg. That's it.
