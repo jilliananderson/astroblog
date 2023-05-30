@@ -14,7 +14,9 @@ tags: ["personal", "updates"]
 
 We went to several different brunch spots over the long weekend, 2 of which were new to me (or their food was, at least). I remain convinced that the US simply values breakfast/brunch foods more and has a bigger variety and generally does brunch _right_, but Berlin at least has some nice spots where I can get a taste of a true brunch vibe 😋
 
-I'm happiest about finding that one of the brunch spots very close to our apartment, [No Fire No Glory](https://www.nofirenoglory.de/). It was closed for renovation for what felt like 2 whole years; it's finally open again and has absolutely delightful pumpkin pancakes, served with poached eggs, bacon, and maple syrup[^1]. This was probably the best and brunchiest dish I've had in Europe, the only other major front-runner being a place that serves massively fluffy pancake stacks with a wide variety of add-ons and sauces. I'd still be happiest with a place that does legitimately good waffles, though. Waffles > pancakes, 4ever.
+I'm really pleased about finding that one of the brunch spots very close to our apartment, [No Fire No Glory](https://www.nofirenoglory.de/), is finally open again. It was closed for renovation for what felt like 2 whole years. It turns out that they make some absolutely delightful pumpkin pancakes, served with poached eggs, bacon, and maple syrup[^1]. This was probably the best and brunchiest dish I've had in Europe, the only other major front-runner being a place that serves massively fluffy pancake stacks with a wide variety of add-ons and sauces. I'd still be happiest with a place that does legitimately good waffles, though. 
+
+Waffles > pancakes, 4ever.
 
 ## ...and back problems
 
