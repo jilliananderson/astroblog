@@ -9,13 +9,18 @@
 		const postBDate = new Date(postB.frontmatter.pubDate)
 		return postBDate - postADate;
 	})
+
+	const formatDate = (date: Date) => {
+		const dateToUse = new Date(date);
+		return new Intl.DateTimeFormat('en-US', { dateStyle: 'medium' }).format(dateToUse)
+	}
 ---
 
 <BaseLayout pageTitle={pageTitle}>
 	<h2>Newest to oldest</h2>
 	<ul>
 		{sortedChronologically.map((post) =>
-		<BlogPost url={post.url} title={post.frontmatter.title} />)}
+		<BlogPost url={post.url} title={post.frontmatter.title} date={formatDate(post.frontmatter.pubDate)} />)}
 	</ul>
 	<script>
 		import "../scripts/menu.ts"

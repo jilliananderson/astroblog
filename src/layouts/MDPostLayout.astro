@@ -1,12 +1,19 @@
 ---
   import BaseLayout from './BaseLayout.astro';
   const { frontmatter } = Astro.props;
+
+  const formatDate = (date: Date) => {
+    const dateToUse = new Date(date);
+    return new Intl.DateTimeFormat('en-US', { dateStyle: 'medium' }).format(dateToUse)
+  }
 ---
 
 <BaseLayout pageTitle={frontmatter.title}>
 
   {frontmatter.image && (<div class="image-container"><img src={frontmatter.image.url} width="300"
       alt={frontmatter.image.alt} /></div>)}
+
+  <p class="post-date">Posted {formatDate(frontmatter.pubDate)}</p>
 
   <slot />
 
@@ -31,7 +38,7 @@
     margin: 0.25em;
     border-radius: 32px;
     padding: .5em 1em;
-    font-size: 1em;
+    font-size: 1rem;
     color: #04005e;
     text-decoration: none;
     background-color: #A05FE0;
@@ -44,5 +51,10 @@
 
   span {
     font-size: 1.15em;
+  }
+
+  .post-date {
+    text-align: center;
+    font-size: 1rem;
   }
 </style>

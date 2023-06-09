@@ -1,13 +1,29 @@
 ---
-    const { url, title } = Astro.props;
+    const { url, title, date } = Astro.props;
 ---
 
-<li>
+<li class="blog-post-item">
     <a href={url}>{title}</a>
+    <p>Posted on {date}</p>
 </li>
+<script>
+    import '../scripts/blogPost.ts'
+</script>
 <style>
     li {
-        font-size: 1.15em;
-        margin-bottom: 12px;
+        font-size: 1.15rem;
+        margin-bottom: 16px;
+        padding: 14px 14px 14px 0px;
+        cursor: pointer;
+        line-height: 12px;
+    }
+
+    a {
+        font-size: 1.5rem;
+        text-decoration: none;
+    }
+
+    p {
+        margin-bottom: 0;
     }
 </style>
