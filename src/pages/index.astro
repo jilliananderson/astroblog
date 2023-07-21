@@ -1,10 +1,51 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
-const pageTitle = "JillianBlogs";
+	import BaseLayout from '../layouts/BaseLayout.astro';
+	import BlogPost from '../components/BlogPost.astro';
+	import { formatDate, sortChronologically } from '../helpers/posts';
+
+	const pageTitle = "JillianBlogs";
+
+	const allPosts = await Astro.glob('../pages/posts/*.md');
+	const sortedChronologically = sortChronologically(allPosts);
+	const mostRecentThree = sortedChronologically.slice(0, 3)
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-	<p>I guess i'm doing this again 🤷🏻‍♀️</p>
-	<p>My h1s look like WordArt, but I actually did this with CSS, lifted almost directly from <a target="_blank" href="https://maciekpalmowski.dev/">this blog</a> which is styled way better than I will ever have the patience to manage on my own page.</p>
-	<p>However, if you (like me) miss WordArt, <a target="_blank" href="https://www.makewordart.com/">I got you.</a></p>
+	<p>I guess I'm doing this again 🤷🏻‍♀️</p>
+	<p>This site will likely (slowly) evolve over time, when/if I have time to work on it and things I'd like to add or
+		change. Generally, you can expect some <a href="/writings">writings</a> -- mostly in blog form but maybe a
+		poem/vignette or stream of
+		consciousness or listicle, as the mood strikes me. There may also be an image thrown in here or there. I'm not
+		sure I'll ever add a comment/contact capability, if you really feel a need to talk to me you probably already
+		have my contact info anyway.</p>
+
+	<p>There is also a very non-zero chance that the site will get randomly abandoned for weeks or months at a time. I
+		might forget about it or give up on it entirely -- history repeats itself, after all. But, I'll keep it around
+		for
+		as long as I feel I'm getting
+		something out of posting to & maintaining it.</p>
+
+	<p>One random thing I liked about building this was making my h1s look like WordArt. I did this with CSS, lifted
+		almost directly from <a target="_blank" href="https://maciekpalmowski.dev/">this blog</a> which is styled way
+		better than I will ever have the patience or vision to manage on my own pages.</p>
+	<p>Anyway, if you (like me) miss the joys of making WordArt, <a target="_blank"
+			href="https://www.makewordart.com/">I got
+			you.</a></p>
+
+	<h2>Latest writings:</h2>
+	<ul>
+		{mostRecentThree.map((post) =>
+		<BlogPost url={post.url} title={post.frontmatter.title} date={formatDate(post.frontmatter.pubDate)} />)}
+	</ul>
 </BaseLayout>
+
+<style>
+	h2 {
+		margin: 40px 0 12px;
+	}
+
+	ul {
+		list-style: none;
+		padding: 0;
+	}
+</style>

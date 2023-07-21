@@ -1,19 +1,14 @@
 ---
 	import BaseLayout from '../layouts/BaseLayout.astro';
 	import BlogPost from '../components/BlogPost.astro';
+	import { sortChronologically, formatDate } from '../helpers/posts';
+
 	const allPosts = await Astro.glob('../pages/posts/*.md');
 	const pageTitle = "Writings";
 
-	const sortedChronologically = allPosts.sort((postA, postB) => {
-		const postADate = new Date(postA.frontmatter.pubDate);
-		const postBDate = new Date(postB.frontmatter.pubDate)
-		return postBDate - postADate;
-	})
+	const sortedChronologically = sortChronologically(allPosts);
 
-	const formatDate = (date: Date) => {
-		const dateToUse = new Date(date);
-		return new Intl.DateTimeFormat('en-US', { dateStyle: 'medium' }).format(dateToUse)
-	}
+
 ---
 
 <BaseLayout pageTitle={pageTitle}>
