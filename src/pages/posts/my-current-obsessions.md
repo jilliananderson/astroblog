@@ -10,8 +10,6 @@ image:
 tags: ["personal", "list", "snapshot"]
 ---
 
-## My current obsessions
-
 Sometimes I get really really really into things and spend a disproportionate amount of time thinking about/doing/searching for/eating/drinking/playing/listening to them. Here are the things I'm fixated on right now.
 
 ### 🧀 Cottage cheese 
@@ -32,7 +30,7 @@ This is an alcohol that most people agree (some fondly, others less so) has a ta
 
 I actually also recently made a custom emoji in our workspace Slack for Berliner Luft. I feel I have solidified my legacy.
 
-### 🎀☕️ Barbennheimer memes[^2]
+### 🎀☕️ Barbenheimer memes[^2]
 
 I recall first seeing a juxtaposition of the Barbie and Oppenheimer films in a "you're either one or the other" context and being annoyed, because it seemed coded as "you're either a dumb bimbo or a serious person". Other people seemed to agree, and since then there has been a flood of tweets & memes celebrating the ability of people to contain multitudes and be both, and more. I dig that. I will be seeing both movies and I will be dressing in pink for Barbie and having a martini for Oppenheimer. (Won't smoke any cigarettes, though.)
 
