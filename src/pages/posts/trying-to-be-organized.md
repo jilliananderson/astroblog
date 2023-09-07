@@ -16,13 +16,13 @@ I'm a person who likes to do things and plan things and list things and remember
 
 ## What do I want an organization system to do?
 
-I want to be able to:
+I want it to be able to:
 - Manage my time
 - List all my tasks so I don't forget them
 - Have a centralized place for reminders that are not necessarily tasks
 - Be easily accessible to me
 - Keep track of important dates, birthdays, appointments, etc.
-- Trick myself into good behaviors by tracking my habits in a way that feels fun and motivating
+- Trick me into good behaviors by tracking my habits in a way that feels fun and motivating
 
 I've long believed that, if I could come up with a system like this, I would be Supremely Organized™ and prevent myself from forgetting/losing important things. Unfortunately, this optimal organizational setup has proven quite elusive. Here are some of the things I've tried and my experiences with those methods.
 
