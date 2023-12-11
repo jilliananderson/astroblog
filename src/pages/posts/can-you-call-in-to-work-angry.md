@@ -10,6 +10,8 @@ image:
 tags: ["personal"]
 ---
 
+{Mostly written in November}
+
 I have to wonder this, as my focus is severely disrupted by the strength of my emotions in response to some organizational decisions that have recently been made with which I strongly disagree. I think I’m probably even less useful right now than I am when I’m sick; if anything, I’m making the day worse for others with my dark mood and attitude.
 
 The responses I want to write are sharp, jagged things, the tips glittering, shattered edges of the glass case that once contained my final reserves of trust, patience, and goodwill. 
