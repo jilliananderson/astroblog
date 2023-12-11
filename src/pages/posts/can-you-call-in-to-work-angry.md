@@ -20,4 +20,4 @@ I worry about each keystroke as I message my colleagues, worried that my electri
 
 How, when I'm questioning the integrity of the entire organization, am I supposed to focus on creating value for the very folks who have created within me such rage and despair? Who have made me so jaded that I all but wish to be fired? 
 
-I could call it a "mental health day", and it wouldn't be so far from the truth, but it still feels disingenuous to pretend it's my own personal mental health that's holding me back on a day when the reality is that the organization itself has drained my life with a poison so insidious that I can no longer afford to spend a single drop of emotional energy?
+I could call it a "mental health day", and it wouldn't be so far from the truth, but it still feels disingenuous to pretend it's my own personal mental health that's holding me back on a day when the reality is that the organization itself has drained my life with a poison so insidious that I can no longer afford to spend a single drop of emotional energy.

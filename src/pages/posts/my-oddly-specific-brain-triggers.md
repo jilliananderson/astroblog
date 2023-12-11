@@ -41,7 +41,7 @@ I can't really defend this one. I have absolutely no idea where I first heard th
 
 What time is it? --> Time for you to GET A WATCH
 
-I love dad jokes. I'm a founding member of the #dad-jokes channel in my company slack. I can never, ever resist making this joke, to the point that it's practically a reflex.
+I love dad jokes. I'm a founding member of the #dad-jokes channel in my company slack. I can never, ever resist making this joke. This is the most reflex-like of all my trained responses.
 
 [^1]: Yes, Dallas is really the name of the town, despite it almost certainly being founded after Dallas, Texas. One of the things you learn by listening to the history of a bunch of small towns is that nobody who was founding towns in the US had a single creative bone in their body. Lots of "New {X}town" and "{Founder's name}sville"s. 
 
