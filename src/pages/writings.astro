@@ -1,34 +1,39 @@
 ---
-	import BaseLayout from '../layouts/BaseLayout.astro';
-	import BlogPost from '../components/BlogPost.astro';
-	import { sortChronologically, formatDate } from '../helpers/posts';
+import BaseLayout from "../layouts/BaseLayout.astro";
+import BlogPost from "../components/BlogPost.astro";
+import { sortChronologically, formatDate } from "../helpers/posts";
 
-	const allPosts = await Astro.glob('../pages/posts/*.md');
-	const pageTitle = "Writings";
+const allPosts = await Astro.glob("../pages/posts/*.md");
+const pageTitle = "Writings";
 
-	const sortedChronologically = sortChronologically(allPosts);
-
-
+const sortedChronologically = sortChronologically(allPosts);
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-	<h2>Newest to oldest</h2>
-	<ul>
-		{sortedChronologically.map((post) =>
-		<BlogPost url={post.url} title={post.frontmatter.title} date={formatDate(post.frontmatter.pubDate)} />)}
-	</ul>
-	<script>
-		import "../scripts/menu.ts"
-	</script>
+  <h2>Newest to oldest</h2>
+  <ul>
+    {
+      sortedChronologically.map((post) => (
+        <BlogPost
+          url={post.url}
+          title={post.frontmatter.title}
+          date={formatDate(post.frontmatter.pubDate)}
+        />
+      ))
+    }
+  </ul>
+  <script>
+    import "../scripts/menu.ts";
+  </script>
 </BaseLayout>
 
 <style>
-	h2 {
-		margin: 12px 0;
-	}
+  h2 {
+    margin: 12px 0;
+  }
 
-	ul {
-		list-style: none;
-		padding: 0;
-	}
+  ul {
+    list-style: none;
+    padding: 0;
+  }
 </style>
