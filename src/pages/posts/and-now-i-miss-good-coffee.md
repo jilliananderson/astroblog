@@ -24,3 +24,5 @@ The apartments we have in Las Palmas are in a really convenient location, and ar
 Lastly for this post, we had the accidental fortune of booking our time in Las Palmas during Gran Canaria's Carnaval celebration. We've seen costumes, parades, parties, there's confetti and glitter at the corner of every vista. Last Saturday was spent with the girlies in a whirlwhind of boy bands, mojitos, and the fluency of Spanish that only comes out when I'm tipsy enough to not be self-conscious about my mistakes. This Saturday will likely be much the same, as it's the day of the large parade and the final day of the celebrations. Unclear whether we'll be able to convince the boys to take part in the festivities, as it's not really the type of party either of them enjoy, but I'm confident that whatever constellation of us attends will have a great time.
 
 And thankfully, I'll still have a few days after that to lay in the sun (and recover) before heading back to the land of clouds and coffee.
+
+[^1]: [Kafema](https://maps.app.goo.gl/oCY9WvVmky2oyYBM6), we love you forever.
